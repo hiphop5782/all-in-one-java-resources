@@ -10,7 +10,7 @@ start
 if (2만원 이상인가?) then (yes)
   :치킨을 주문한다;
 else (no)
-  :아무것도 주문하지 않는다;
+  :자장면을 주문한다;
 endif
 
 stop
