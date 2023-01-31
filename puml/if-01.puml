@@ -1,0 +1,21 @@
+@startuml
+
+title 외출 시나리오
+
+
+start
+
+:외출할 준비를 한다; 
+
+:창 밖을 본다;
+
+if (비가 오는가?) then (yes)
+  :우산을 챙긴다;
+else (no)
+  :아무것도 챙기지 않는다;
+endif
+:외출한다;
+
+stop
+
+@enduml
