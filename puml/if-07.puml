@@ -1,0 +1,22 @@
+@startuml
+
+title 배수 판정(if)
+
+
+start
+
+:숫자를 입력받는다; 
+
+if (2로 나누어 떨어지는가?) then (true)
+  :2의 배수;
+endif
+
+if (3으로 나누어 떨어지는가?) then (true)
+  :3의 배수;
+endif
+
+:판정 결과를 출력한다;
+
+stop
+
+@enduml
