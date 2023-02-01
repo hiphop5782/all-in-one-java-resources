@@ -1,0 +1,28 @@
+@startuml
+
+title 배수 판정(if)
+
+
+start
+
+:숫자를 입력받는다; 
+
+if (2로 나누어 떨어지고 3으로도 나누어 떨어지는가?) then (true)
+  :2와 3의 공배수;
+else (false)
+  if (2로 나누어 떨어지지만 3으로 나누어 떨어지지 않는가?) then (true)
+    :2의 배수;
+  else (false)
+    if(2로 나누어 떨어지지는 않지만 3으로 나누어 떨어지는가?) then (true)
+      :3의 배수;
+    else (false)
+      :2와 3의 배수가 아님;
+    endif
+  endif
+endif
+
+:판정 결과를 출력한다;
+
+stop
+
+@enduml
