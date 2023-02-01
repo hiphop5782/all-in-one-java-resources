@@ -1,6 +1,6 @@
 @startuml
 
-title 홀짝 판정(if)
+title 홀짝 판정(if~)
 
 
 start
