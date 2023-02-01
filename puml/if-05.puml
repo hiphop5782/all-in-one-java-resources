@@ -1,0 +1,22 @@
+@startuml
+
+title 홀짝 판정(if)
+
+
+start
+
+:숫자를 입력받는다; 
+
+if (2로 나누어 떨어지는가?) then (true)
+  :짝수;
+endif
+
+if (2로 나누어 떨어지지 않는가?) then (true)
+  :홀수;
+endif
+
+:판정 결과를 출력한다;
+
+stop
+
+@enduml
