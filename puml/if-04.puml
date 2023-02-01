@@ -1,0 +1,24 @@
+@startuml
+
+title 초반 중반 후반 판정
+
+
+start
+
+:나이를 입력받는다; 
+
+if (일의 자리가 0, 1, 2인가?) then (true)
+  :초반;
+else (false)
+  if (일의 자리가 3, 4, 5, 6인가?) then (true)
+    :중반;
+  else (false)
+    :후반;
+  endif
+endif
+
+:판정 결과를 출력한다;
+
+stop
+
+@enduml
