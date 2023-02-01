@@ -1,0 +1,20 @@
+@startuml
+
+title 놀이동산 요금 계산 순서도
+
+
+start
+
+:이용요금 = 10000; 
+note right: 최초 이용 요금을 설정한다
+
+if (제휴카드가 있는가?) then (true)
+  :이용요금 -= 2000;
+  note left:제휴카드가 있는 경우는 할인 처리한다
+endif
+
+:이용요금 결제;
+
+stop
+
+@enduml
