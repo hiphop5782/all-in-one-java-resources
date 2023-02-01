@@ -1,0 +1,22 @@
+@startuml
+
+title 월의 일자 수 구하기 
+
+
+start
+
+:month 입력; 
+note right: 사용자에게 월을 입력받는다
+
+switch(month?) 
+case (2)
+  :28일;
+case (4, 6, 9, 11)
+  :30일;
+case (default)
+  :31일;
+endswitch
+
+stop
+
+@enduml
