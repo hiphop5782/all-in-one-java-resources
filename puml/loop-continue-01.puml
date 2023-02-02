@@ -8,12 +8,10 @@ start
 :i = 1;
 note right: 반복수 선언
 
-label loop
 while (\n  i <= 100?\n)  is (true)
-  if (i가 짝수?) then (true) 
-    #lightpink:continue;
-  else
+  if (i가 홀수?) then (true) 
     :i출력;
+  else
   endif
   :i++;
   note right: 반복수 증가
