@@ -8,7 +8,7 @@ start
 :i = 0;
 note left: 선언부
 
-while (i < 5? (조건부))  is (true)
+while (\n  i < 5?\n(조건부)\n)  is (true)
   :Hello world 출력;
   note right: 코드 블록
   :i++;
