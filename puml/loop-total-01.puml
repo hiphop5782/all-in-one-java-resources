@@ -1,0 +1,24 @@
+@startuml
+
+title 합계 구하기
+
+
+start
+
+:합계 = 0;
+note left: 합계 변수 선언
+
+:i = 1;
+note right: 반복수 선언
+
+while (\n  i <= 100?\n)  is (true)
+  :합계 누적 계산;
+  :i++;
+  note right: 반복수 증가
+endwhile (false)
+
+:합계 출력;
+
+stop
+
+@enduml
