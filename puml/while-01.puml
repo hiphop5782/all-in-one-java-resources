@@ -1,0 +1,13 @@
+@startuml
+
+title while 구문 활용
+
+
+start
+
+while ()
+  :코드 실행;
+endwhile
+-[hidden]->
+
+@enduml
