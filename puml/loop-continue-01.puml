@@ -12,7 +12,7 @@ label loop
 while (\n  i <= 100?\n)  is (true)
   if (i가 짝수?) then (true) 
     #lightpink:continue;
-  else (false)
+  else
     :i출력;
   endif
   :i++;
