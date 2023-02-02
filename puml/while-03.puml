@@ -1,0 +1,23 @@
+@startuml
+
+title 0을 입력할 때까지 반복
+
+
+start
+
+:Scanner 준비;
+
+while () 
+  :num 입력;
+  if (num이 0인가?) then (true)
+    #lightpink:break;
+    break
+  endif
+  :num 출력;
+endwhile
+
+:Scanner 종료;
+
+stop
+
+@enduml
