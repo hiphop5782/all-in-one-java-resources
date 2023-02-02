@@ -1,0 +1,20 @@
+@startuml
+
+title 0을 입력할 때까지 반복
+
+
+start
+
+:Scanner 준비;
+
+repeat
+  :score 입력;
+repeat while(0점 미만 또는 100점 초과?) is (true) not (false)
+
+:score 출력;
+
+:Scanner 종료;
+
+stop
+
+@enduml
