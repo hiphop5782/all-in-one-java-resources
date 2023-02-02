@@ -5,7 +5,7 @@ title 카운트 구하기
 
 start
 
-:카운트 = 0;
+#application:카운트 = 0;
 note left: 카운트 변수 선언
 
 :i = 1;
@@ -13,7 +13,7 @@ note right: 반복수 선언
 
 while (\n  i <= 100?\n)  is (true)
   if (i가 짝수?) then (true)
-    :카운트 1 증가;
+    #application:카운트 1 증가;
   else (false)
     :카운트 변화 없음;
   endif
@@ -21,7 +21,7 @@ while (\n  i <= 100?\n)  is (true)
   note right: 반복수 증가
 endwhile (false)
 
-:카운트 출력;
+#application:카운트 출력;
 
 stop
 
