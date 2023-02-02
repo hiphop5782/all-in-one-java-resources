@@ -11,6 +11,7 @@ note right: 반복수 선언
 while (\n  i <= 100?\n)  is (true)
   if (i가 홀수?) then (true) 
     :i 출력;
+  else (false)
   endif
   :i++;
   note right: 반복수 증가
