@@ -1,0 +1,13 @@
+@startuml
+
+title 0을 입력할 때까지 반복
+
+start
+
+repeat
+  :코드 블록 실행;
+repeat while(실행 조건) is (true) not (false)
+
+stop
+
+@enduml
