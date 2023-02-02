@@ -1,0 +1,22 @@
+@startuml
+
+title for 구문 실행 원리
+
+
+start
+
+:i = 0;
+note left: 선언부
+
+while (i < 5? (조건부))  is (true)
+  :Hello world 출력;
+  note right: 코드 블록
+  :i++;
+  note right: 증감부
+endwhile (false)
+
+:반복 종료;
+
+stop
+
+@enduml
